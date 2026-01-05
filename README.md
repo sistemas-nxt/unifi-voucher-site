@@ -329,6 +329,26 @@ To install the UniFi Voucher Site add-on for Home Assistant, follow these steps:
 4. Once the repository is added, you will find the "UniFi Voucher Site" add-on in the add-on store. Click on it.
 5. Click "Install" and wait for the installation to complete.
 
+### Android App
+
+An Android application is available that runs the UniFi Voucher server locally on your device using [nodejs-mobile](https://github.com/nickolee/nodejs-mobile-android). This allows you to manage vouchers directly from your phone or tablet without needing a separate server.
+
+**Key Features:**
+- Runs entirely on the device (no external server required)
+- WebView-based UI (same interface as web version)
+- Configuration wizard for initial setup
+- Foreground service keeps the server running
+- Works offline once configured
+
+**Requirements:**
+- Android 7.0 (API 24) or higher
+- ~150MB of storage space
+- Network access to your UniFi Controller
+
+For detailed setup instructions, see:
+- [ANDROID.md](ANDROID.md) - Full architecture documentation
+- [android-wrapper/README.md](android-wrapper/README.md) - Build and development guide
+
 ---
 
 ## Development
